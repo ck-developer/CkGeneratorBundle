@@ -12,7 +12,8 @@
     ],
     "require": {
         "symfony/framework-bundle": "~2.2",
-        "symfony/console": "~2.5"
+        "symfony/console": "~2.5",
+        "sensio/generator-bundle": "~2.3"
     },
     "require-dev": {
         "symfony/doctrine-bridge": "~2.2",
