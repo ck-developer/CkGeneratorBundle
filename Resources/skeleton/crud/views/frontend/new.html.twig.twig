@@ -1,0 +1,12 @@
+{%- include "crud/views/frontend/others/extend_template.html.twig.twig" %}
+
+{% block body %}
+{{ "{% block body -%}" }}
+    <h1>{{ entity }} creation</h1>
+
+    {{ '{{ form(form) }}' }}
+
+    {% set hide_edit, hide_delete = true, true %}
+    {% include 'crud/views/frontend/others/record_actions.html.twig.twig' %}
+{{ "{% endblock %}" }}
+{% endblock body %}
